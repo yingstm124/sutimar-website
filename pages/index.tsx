@@ -19,7 +19,7 @@ const theme = createTheme({
 function Home() {
   return (
     <ThemeProvider theme={theme}>
-      <ProfilePage />;
+      <ProfilePage />
     </ThemeProvider>
   );
 }
